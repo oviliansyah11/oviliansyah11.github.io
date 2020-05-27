@@ -1,0 +1,222 @@
+/* AGAR BORDER, PADDING DAN KONTEN BERGANTUNG PADA VALUE */
+* {
+    box-sizing: border-box;
+}
+
+/* AGAR BORDER, PADDING DAN KONTEN BERGANTUNG PADA VALUE */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* FONT */
+body {
+    font-family: Sen;
+}
+
+/* FONT */
+
+/* HEADER */
+.header {
+    height: 600px;
+    background-color: #080808;
+}
+
+.header .active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.nav-item .nav-link {
+    color: #ffffff !important;
+}
+
+/* HEADER */
+
+
+/* POPULER EVENT */
+.populer-event .see-all,
+.see {
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+/* END POPULER */
+
+/* SELL YOUR TICKET */
+.sell-ticket p {
+    color: #cccccc;
+    margin-top: 10px;
+}
+
+.book-ticket p {
+    color: #cccccc;
+    margin-top: 10px;
+}
+
+/* END */
+
+/* HEADER */
+.header-detail {
+    height: 500px;
+    background-color: #080808;
+}
+
+.header-detail .active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.nav-item .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar {
+    background-color: #080808;
+}
+
+/* HEADER */
+
+
+/* BREADCRUMB */
+.breadcrumb-item {
+    text-decoration: none;
+}
+
+.kategori-breadcrumb {
+    padding-top: 70px;
+}
+
+/* END */
+
+/* EVENT POPULAR */
+.event-popular {
+    margin-top: -380px;
+}
+
+.event-popular h3 {
+    color: #ffffff;
+}
+
+.event-popular p {
+    color: #B7B1B1;
+}
+
+/* END */
+
+/* PAGINATION */
+.pagination .page-link {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.pagination .page-link:hover {
+    background-color: #51B9E6;
+}
+
+.pagination li {
+    padding: 10px;
+}
+
+.pagination .aktif .page {
+    background-color: #51B9E6;
+    border-color: #51B9E6;
+}
+
+/* END PAGINATION */
+
+/* Background event */
+.header-event {
+    margin-top: -250px;
+}
+
+.background {
+    border: 1px solid #B7B1B1;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.background-detail {
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    padding: 5px;
+    color: #B7B1B1;
+}
+
+.tombol-ticket {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+/* end */
+
+/* DESKRIPSI EVENT */
+.deskripsi-event .garis {
+    border: 1px solid #676666;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 50%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* END */
+
+
+/* MODAL */
+
+.modal-body p {
+    font-size: 12px;
+    color: #080808;
+}
+
+.modal-body p:hover {
+    color: #51B9E6;
+    text-decoration: none;
+}
+
+.modal-body a {
+    text-decoration: none;
+}
+
+/* END MODAL */
+
+/* FOOTER */
+.footer {
+    background-color: #000000;
+}
+
+.footer h5 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer .garis {
+    border-color: #676666;
+    size: 1px;
+}
+
+.footer p {
+    color: #B7B1B1;
+}
+
+.footer span {
+    color: #ffffff;
+}
+
+/* END FOOTER */
